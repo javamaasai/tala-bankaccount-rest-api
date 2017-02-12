@@ -1,0 +1,11 @@
+GET        /                                   controllers.HomeController.index
+GET        /showjsondata                       controllers.BankAccountController.showJsonData
+GET        /balance/:accountnumber             controllers.BankAccountController.balance(accountnumber)
+GET        /deposit/:accountnumber/:amount     controllers.BankAccountController.deposit(accountnumber, amount)
+GET        /withdraw/:accountnumber/:amount   controllers.BankAccountController.withdraw(accountnumber, amount)
+
+->         /v1/posts               v1.post.PostRouter
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
+

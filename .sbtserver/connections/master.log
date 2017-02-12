@@ -1,0 +1,22 @@
+New log file opened at Sun Feb 12 04:43:46 EAT 2017 by 48484@X-PC
+Taking next connection to: 59986
+New client attempting to connect on port: 59987-59986
+  Address = /192.168.0.11:59986
+This client on port 59987 has uuid de5f1f30-60c9-4d87-b5f5-054fb374a664 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-de5f1f30-60c9-4d87-b5f5-054fb374a664
+Taking next connection to: 59986
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59986
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59986
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59986
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 48484@X-PC logs at Sun Feb 12 04:55:47 EAT 2017, goodbye.
